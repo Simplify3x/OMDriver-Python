@@ -1,0 +1,12 @@
+[distutils]
+index-servers =
+  pypi
+  pypitest
+ 
+[pypitest]
+username=Simplify3x    
+password=simplify@123 
+ 
+[pypi]
+username=Simplify3x    
+password=simplify@123
