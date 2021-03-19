@@ -3,6 +3,7 @@ import json
 def get_modules(url,headers,project_id,module=None,page=None,object=None,attribute=None):
     modules=dict()
     flag=False
+    flag3=False
     page_url = url + "/" + project_id + "/modules"
     response=requests.get(page_url,headers=headers)
     tmp=response
@@ -37,9 +38,10 @@ def get_modules(url,headers,project_id,module=None,page=None,object=None,attribu
                         break
     else:
         modules["error"]="Invalid Token"
-    if flag2==False:
+        flag3=True
+    if flag2==False and flag3==False:
         modules["error"] = error
-    if(flag==False and module!=None):
+    if(flag==False and module!=None and flag3==False):
         modules["error"] = "Could'nt Find the Given module"
 
     return modules
