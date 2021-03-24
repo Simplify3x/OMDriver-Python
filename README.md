@@ -3,7 +3,7 @@ Simplify Object Manager, a **FREE cloud based** Object Repository making it easi
 
  
 
-To begin with SimplifyOM, kindly check out our [YouTube][https://www.youtube.com/channel/UCec7wlOfvGKTfwNloSApryQ/playlists] videos and follow the tutorial.
+To begin with SimplifyOM, kindly check out our https://www.youtube.com/channel/UCec7wlOfvGKTfwNloSApryQ/playlists videos and follow the tutorial.
 
  
 
