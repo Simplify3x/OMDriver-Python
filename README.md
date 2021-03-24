@@ -74,6 +74,7 @@ print(call.getData(object="<OBJECT_NAME>",attribute="<ATTRIBUTE_NAME>")) #Gettin
 ```
 ## ScreenShots
 ![Alt text](/images/ss1.png "Optional title")
+![Image of Cooler](/images/ss2.png)
 
 
 ## Authors
